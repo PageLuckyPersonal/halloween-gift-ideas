@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+  }
+  .halloween-container {
+    margin: 0 10px;
+  }
+  .halloween-container a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .halloween-container p {
+    line-height: 1.5em;
+    margin: 0px;
+  }
+  .halloween-container .halloween-h3 {
+    padding: 15px;
+    margin: 0;
+    display: inline;
+    font-size: 22px;
+  }
+  .halloween-h2 {
+    text-align: center;
+  }
+  img.halloween-image {
+    height: auto;
+    width: 100%;
+  }
+  .pop-number {
+    font-size: 64px;
+    font-weight: bold;
+    color: #c64a12;
+    margin-right: 7px;
+  }
+  .halloween-content-ideas{
+    display: flex;
+    flex-direction: column;
+  }
+  .halloween-content-ideas h3 {
+    text-align: center;
+  }
+  .halloween-content-box{
+    flex: 1;
+  }
+  .halloween-content-img{
+    width: 100%;
+    height: auto;
+  }
+  @media only screen and (min-width: 640px), and (max-width: 769px) {
+    .halloween-img-container{
+      display: flex;
+      flex-direction: row;
+    }
+      img.halloween-image {
+      height: auto;
+      width: 300px;
+      flex: 1;
+    }
+    .halloween-text-box {
+    padding: 15px;
+    }
+    .halloween-content-ideas{
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .halloween-content-img{
+      max-height: 160px;
+      width: auto;
+    }
+  }
+  @media only screen and (min-width: 770px), and (max-width: 1024px) {
+    .halloween-container{
+      max-width: 70%;
+      margin: 0 auto;
+    }
+    img.halloween-image {
+      max-width: 400px;
+    } 
+    .halloween-content-img{
+      max-height: 340px;
+      width: auto;
+    }
+  }
+  
